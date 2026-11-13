@@ -15,7 +15,17 @@
 ## 2. 演習の記録（4点セット）
 
 ### 演習1：（演習の名前）
+var passers: [String] = []
 
+for i in 0..<names.count {
+    if scores[i] >= 60 {
+        passers.append(names[i])
+    }
+}
+
+check("演習1 合格者は4名", passers.count == 4)
+check("演習1 並び順は names のまま",
+      passers == ["電子太郎", "山田一郎", "佐藤みなみ", "グエン・アン"])
 **使ったプロンプト：**
 （生成AIに入力した文をそのまま貼る。自分で書いた場合は「自分で書いた」と書く）
 
