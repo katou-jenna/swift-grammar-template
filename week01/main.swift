@@ -1,5 +1,3 @@
-// week01 の演習を終えた main.swift を、このファイルに Upload files で上書きしてください。
-// 教材コードは swift-grammar-code の week01/main.swift を Raw 表示から全選択コピーして Xcode に貼ります。
 // week01: 型と制御構文の再確認、配列・辞書・範囲
 // このプログラムは、1CM1 の成績を並べ替えたり、合格した人を数えたり、
 // 名前から点数を引いたりします。
@@ -182,3 +180,4 @@ print(failers)
 //  多分岐            switch (x) { case 1: ... break; }   switch x { case 1: ... }
 //                    break を書かないと次に落ちる           break は不要。網羅していないとエラー
 //  暗黙の型変換       int から double は自動               自動変換なし。Double(n) と書く
+
